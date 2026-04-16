@@ -1,12 +1,13 @@
 import { OrbitControls } from "@react-three/drei";
-import Simple from "./SimpleStart";
+import ImperativeAPIExample from "./ImperativeAPI";
 
 const Scene = () => {
   return (
     <>
       <OrbitControls />
 
-      <Simple />
+      {/* <Simple /> */}
+      <ImperativeAPIExample />
     </>
   );
 };
@@ -22,3 +23,6 @@ export default Scene;
 // now we starting from one Simple example
 // go to the components -> SimpleStart.tsx
 // that you understand the some imp basics
+
+// now we learn what is the use of ImperativeAPI and how it's work
+// goto the components -> ImperativeAPI.tsx
