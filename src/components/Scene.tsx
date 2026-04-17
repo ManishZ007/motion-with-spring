@@ -1,5 +1,5 @@
 import { OrbitControls } from "@react-three/drei";
-import ImperativeAPIExample from "./ImperativeAPI";
+import Props from "./Props";
 
 const Scene = () => {
   return (
@@ -7,7 +7,8 @@ const Scene = () => {
       <OrbitControls />
 
       {/* <Simple /> */}
-      <ImperativeAPIExample />
+      {/* <ImperativeAPIExample /> */}
+      <Props />
     </>
   );
 };
@@ -26,3 +27,7 @@ export default Scene;
 
 // now we learn what is the use of ImperativeAPI and how it's work
 // goto the components -> ImperativeAPI.tsx
+
+// next we go to the props what are the imp props
+// with that we doing better animation in our application
+// goto to components -> Props.tsx
