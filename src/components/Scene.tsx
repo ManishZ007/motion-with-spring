@@ -1,5 +1,5 @@
 import { OrbitControls } from "@react-three/drei";
-import SpringRefStudy from "./SpringRef";
+import Spring from "./Springs";
 
 const Scene = () => {
   return (
@@ -9,7 +9,8 @@ const Scene = () => {
       {/* <Simple /> */}
       {/* <ImperativeAPIExample /> */}
       {/* <Props /> */}
-      <SpringRefStudy />
+      {/* <SpringRefStudy /> */}
+      <Spring />
     </>
   );
 };
@@ -37,3 +38,6 @@ export default Scene;
 
 // useSpringRef
 // goto the components -> SpringRef.tsx
+
+// useSprings better way
+// goto the component -> Springs.tsx
