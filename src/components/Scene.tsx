@@ -1,5 +1,5 @@
 import { OrbitControls } from "@react-three/drei";
-import Spring from "./Springs";
+import Trail from "./Trail";
 
 const Scene = () => {
   return (
@@ -10,7 +10,9 @@ const Scene = () => {
       {/* <ImperativeAPIExample /> */}
       {/* <Props /> */}
       {/* <SpringRefStudy /> */}
-      <Spring />
+      {/* <Spring /> */}
+
+      <Trail />
     </>
   );
 };
@@ -40,4 +42,7 @@ export default Scene;
 // goto the components -> SpringRef.tsx
 
 // useSprings better way
-// goto the component -> Springs.tsx
+// goto the components -> Springs.tsx
+
+// final imp one useTrail
+// goto the components -> Trail.tsx
