@@ -1,5 +1,5 @@
 import { OrbitControls } from "@react-three/drei";
-import Props from "./Props";
+import SpringRefStudy from "./SpringRef";
 
 const Scene = () => {
   return (
@@ -8,7 +8,8 @@ const Scene = () => {
 
       {/* <Simple /> */}
       {/* <ImperativeAPIExample /> */}
-      <Props />
+      {/* <Props /> */}
+      <SpringRefStudy />
     </>
   );
 };
@@ -30,4 +31,9 @@ export default Scene;
 
 // next we go to the props what are the imp props
 // with that we doing better animation in our application
+// with the help of this you can add physics in this animation
+// like spring
 // goto to components -> Props.tsx
+
+// useSpringRef
+// goto the components -> SpringRef.tsx
